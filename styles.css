@@ -1,0 +1,15 @@
+body { font-family: 'Arial', sans-serif; background-color: #f9e8d2; }
+.container { width: 80%; margin: auto; overflow: hidden; }
+header { background: linear-gradient(45deg, #f64f59, #c471ed, #12c2e9); color: white; padding: 20px; text-align: center; }
+header h1 { text-shadow: 2px 2px 4px #000; }
+.menu { display: flex; flex-wrap: wrap; justify-content: space-around; }
+.menu-item { flex-basis: 30%; margin: 10px; box-sizing: border-box; transition: transform 0.5s; }
+.menu-item:hover { transform: scale(1.1); }
+.menu-item img { max-width: 100%; border-radius: 5px; box-shadow: 3px 3px 6px #555; }
+.description { margin-top: 5px; color: #333; display: none; }
+button { background-color: #12c2e9; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; box-shadow: 3px 3px 6px #555; }
+button:hover { background-color: #c471ed; }
+footer { text-align: center; margin-top: 20px; }
+@media (max-width: 600px) {
+  .menu-item { flex-basis: 100%; }
+}
