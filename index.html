@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tentación de Azúcar</title>
+<style>
+  body { font-family: 'Arial', sans-serif; background-color: #f9e8d2; }
+  .container { width: 80%; margin: auto; overflow: hidden; }
+  header { background: linear-gradient(45deg, #f64f59, #c471ed, #12c2e9); color: white; padding: 20px; text-align: center; }
+  header h1 { text-shadow: 2px 2px 4px #000; }
+  .menu { display: flex; flex-wrap: wrap; justify-content: space-around; }
+  .menu-item { flex-basis: 30%; margin: 10px; box-sizing: border-box; transition: transform 0.5s; }
+  .menu-item:hover { transform: scale(1.1); }
+  .menu-item img { max-width: 100%; border-radius: 5px; box-shadow: 3px 3px 6px #555; }
+  .description { margin-top: 5px; color: #333; }
+  button { background-color: #12c2e9; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; box-shadow: 3px 3px 6px #555; }
+  button:hover { background-color: #c471ed; }
+  @media (max-width: 600px) {
+    .menu-item { flex-basis: 100%; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Bienvenidos a Tentación de Azúcar</h1>
+  <p>Descubre nuestro menú de postres y haz tu pedido con un clic.</p>
+</header>
+<div class="container">
+  <div class="menu">
+    <!-- Repite este bloque para cada postre -->
+    <!-- Menu item 1 -->
+    <div class="menu-item">
+      <img src="img/postre1.jpeg" alt="Postre 1">
+      <p class="description">Postre 1: Deliciosa tarta de chocolate con capas de crema y trozos de chocolate amargo.</p>
+    </div>
+    <!-- Menu item 2 -->
+    <div class="menu-item">
+      <img src="img/postre2.jpeg" alt="Postre 2">
+      <p class="description">Postre 2: Exquisito cheesecake de frutos rojos con una base crujiente de galletas.</p>
+    </div>
+    <div class="menu-item">
+      <img src="img/postre2.jpeg" alt="Postre 2">
+      <p class="description">Postre 2: Exquisito cheesecake de frutos rojos con una base crujiente de galletas.</p>
+    </div>
+    <div class="menu-item">
+      <img src="img/postre2.jpeg" alt="Postre 2">
+      <p class="description">Postre 2: Exquisito cheesecake de frutos rojos con una base crujiente de galletas.</p>
+    </div>
+    <div class="menu-item">
+      <img src="img/postre2.jpeg" alt="Postre 2">
+      <p class="description">Postre 2: Exquisito cheesecake de frutos rojos con una base crujiente de galletas.</p>
+    </div>
+    <!-- ... Repetir hasta 30 veces ... -->
+  </div>
+  <div class="menu-item">
+    <img src="img/postre1.jpeg" alt="Postre 1">
+    <p class="description">Postre 1: Deliciosa tarta de chocolate con capas de crema y trozos de chocolate amargo.</p>
+  </div>
+  <div class="menu-item">
+    <img src="img/postre1.jpeg" alt="Postre 1">
+    <p class="description">Postre 1: Deliciosa tarta de chocolate con capas de crema y trozos de chocolate amargo.</p>
+  </div>
+  <div class="menu-item">
+    <img src="img/postre1.jpeg" alt="Postre 1">
+    <p class="description">Postre 1: Deliciosa tarta de chocolate con capas de crema y trozos de chocolate amargo.</p>
+  </div>
+  <a href="https://wa.me/tunumerodewhatsapp?text=Me%20gustaría%20hacer%20un%20pedido" target="_blank">
+    <button>Haz tu pedido</button>
+  </a>
+</div>
+</body>
+</html>
