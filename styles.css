@@ -11,6 +11,8 @@ header h1 { text-shadow: 2px 2px 4px #000; }
 button { background-color: #12c2e9; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; box-shadow: 3px 3px 6px #555; }
 button:hover { background-color: #c471ed; }
 footer { text-align: center; margin-top: 20px; }
+.action-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 20px; }
+.action-footer a, .action-footer footer { flex-grow: 1; text-align: center; }
 @media (max-width: 600px) {
   .menu-item { flex-basis: 100%; }
 }
